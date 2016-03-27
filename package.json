@@ -1,0 +1,16 @@
+{
+  "name": "staq-shell-presentation",
+  "version": "1.0.0",
+  "description": "My STAQ shell presentation",
+  "repository": "tough-griff/staq-shell-presentation",
+  "main": "index.html",
+  "scripts": {
+    "build:watch": "cleaver watch index.md",
+    "build": "cleaver index.md"
+  },
+  "author": "Griffin Yourick <gryphon92@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "cleaver": "^0.8.2"
+  }
+}
