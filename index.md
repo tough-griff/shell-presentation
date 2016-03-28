@@ -192,3 +192,7 @@ fi
 source "$fasd_cache"
 unset fasd_cache
 ```
+
+--
+
+# [tough-griff/dotfiles](https://github.com/tough-griff/dotfiles)
