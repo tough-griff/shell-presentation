@@ -1,0 +1,48 @@
+.progress {
+  z-index: 1;
+}
+
+.progress-bar {
+  -webkit-transition: width .25s ease-out;
+  -moz-transition: width .25s ease-out;
+  -o-transition: width .25s ease-out;
+  transition: width .25s ease-out;
+}
+
+.slide {
+  z-index: 0;
+}
+
+.slide-content {
+  width: 1200px;
+}
+
+pre {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+p code {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.controls {
+  z-index: 1;
+}
+
+.arrow {
+  border-width: 15px;
+  margin: 0;
+}
+
+.prev {
+  border-right-width: 25px;
+  margin-right: 25px;
+}
+
+.next {
+  border-left-width: 25px;
+}
