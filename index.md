@@ -111,6 +111,11 @@ days!
 
 If it's command line, `brew search` for it first.
 
+[Homebrew/command-not-found](https://github.com/Homebrew/homebrew-command-not-found)
+is helpful for when you might not realize you need to install a new command.
+
+___
+
 For apps, try `brew cask`
 
 --
