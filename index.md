@@ -136,8 +136,8 @@ which has over 13,500 stars. It has great defaults for optimizing your machine.
 
 ```sh
 brew install zsh
-sudo echo "$(brew prefix)/bin/zsh" >> /etc/shells
-chsh -s $(brew prefix)/bin/zsh
+sudo echo "$(brew --prefix)/bin/zsh" >> /etc/shells
+chsh -s $(brew --prefix)/bin/zsh
 ```
 
 --
@@ -150,7 +150,7 @@ brew install zsh-completions
 ```
 ___
 
-**[History and Higlighting](https://github.com/tough-griff/dotfiles/blob/master/zsh/highlighting_and_history.zsh)**
+**[History and Higlighting](https://github.com/tough-griff/dotfiles/blob/master/zsh/highlighting-and-history.zsh)**
 ```sh
 brew install zsh-history-substring-search
 brew install zsh-syntax-highlighting
@@ -171,7 +171,7 @@ For consistency:
 brew install coreutils findutils moreutils gawk gnu-sed
 ```
 
-[gnu_utils.zsh](https://github.com/tough-griff/dotfiles/blob/master/zsh/gnu_utils.zsh)
+[gnu_utils.zsh](https://github.com/tough-griff/dotfiles/blob/master/zsh/gnu-utils.zsh)
 ```sh
 where ls
 ls () {
