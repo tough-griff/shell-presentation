@@ -510,8 +510,8 @@ which has over 13,500 stars. It has great defaults for optimizing your machine.<
     <section class="slide-content"><h3 id="zsh">ZSH</h3>
 <p><code>zsh</code> is everything <code>bash</code> and more.</p>
 <pre><code class="lang-sh">brew install zsh
-sudo <span class="hljs-built_in">echo</span> <span class="hljs-string">"<span class="hljs-variable">$(brew prefix)</span>/bin/zsh"</span> &gt;&gt; /etc/shells
-chsh <span class="hljs-_">-s</span> $(brew prefix)/bin/zsh</code></pre>
+sudo <span class="hljs-built_in">echo</span> <span class="hljs-string">"<span class="hljs-variable">$(brew --prefix)</span>/bin/zsh"</span> &gt;&gt; /etc/shells
+chsh <span class="hljs-_">-s</span> $(brew --prefix)/bin/zsh</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-9">
@@ -519,7 +519,7 @@ chsh <span class="hljs-_">-s</span> $(brew prefix)/bin/zsh</code></pre>
 <p><strong><a href="https://github.com/tough-griff/dotfiles/blob/master/zsh/completion.zsh">Completions</a></strong></p>
 <pre><code class="lang-sh">brew install zsh-completions</code></pre>
 <hr>
-<p><strong><a href="https://github.com/tough-griff/dotfiles/blob/master/zsh/highlighting_and_history.zsh">History and Higlighting</a></strong></p>
+<p><strong><a href="https://github.com/tough-griff/dotfiles/blob/master/zsh/highlighting-and-history.zsh">History and Higlighting</a></strong></p>
 <pre><code class="lang-sh">brew install zsh-history-substring-search
 brew install zsh-syntax-highlighting</code></pre>
 <hr>
@@ -532,7 +532,7 @@ hours tweaking and installing your own extensions and plugins.</p>
 <p><code>ls -G</code> in BSD vs. <code>ls --color=auto</code> in GNU</p>
 <p>For consistency:</p>
 <pre><code class="lang-sh">brew install coreutils findutils moreutils gawk gnu-sed</code></pre>
-<p><a href="https://github.com/tough-griff/dotfiles/blob/master/zsh/gnu_utils.zsh">gnu_utils.zsh</a></p>
+<p><a href="https://github.com/tough-griff/dotfiles/blob/master/zsh/gnu-utils.zsh">gnu_utils.zsh</a></p>
 <pre><code class="lang-sh"><span class="hljs-built_in">where</span> ls
 <span class="hljs-function"><span class="hljs-title">ls</span></span> () {
     <span class="hljs-string">'/usr/local/bin/gls'</span> <span class="hljs-string">"<span class="hljs-variable">$@</span>"</span>
