@@ -1,7 +1,7 @@
 title: Getting To Know Your Shell
 author:
   name: Griffin Yourick
-  url: github.com/tough-griff
+  url: https://github.com/tough-griff
 output: index.html
 style: style.css
 
